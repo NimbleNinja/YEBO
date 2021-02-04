@@ -1,6 +1,7 @@
 .footer {
 	background-color: #f7f7f7;
 	padding: 100px 0;
+
 	&__row {
 		display: flex;
 	}
@@ -47,5 +48,24 @@
 
 	&__logo {
 		padding: 0px 0px 0px 9px;
+	}
+
+	@media (max-width: 700px){
+		padding: 30px 0 0 0;
+		&__row{
+			flex-direction: column;
+		}
+
+		&__column{
+			margin-bottom: 20px;
+		}
+
+		&__adress{
+			text-align: center;
+		}
+
+		&__body{
+			justify-content: center;
+		}
 	}
 }

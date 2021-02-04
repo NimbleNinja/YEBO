@@ -263,6 +263,23 @@ h1, h2, h3, h4, h5, h6 {
 .footer__logo {
   padding: 0px 0px 0px 9px;
 }
+@media (max-width: 700px) {
+  .footer {
+    padding: 30px 0 0 0;
+  }
+  .footer__row {
+    flex-direction: column;
+  }
+  .footer__column {
+    margin-bottom: 20px;
+  }
+  .footer__adress {
+    text-align: center;
+  }
+  .footer__body {
+    justify-content: center;
+  }
+}
 
 .ibg {
   background-repeat: no-repeat;
