@@ -1,6 +1,6 @@
 # YEBO
 
-##### The current version of the application is at the [link](https://nimbleninja.github.io/YEBO/).
+##### The current version of the layout is at the [link](https://nimbleninja.github.io/YEBO/).
 
 #### Tech stack:
 
